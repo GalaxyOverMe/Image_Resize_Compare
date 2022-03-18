@@ -45,3 +45,16 @@ thumbnail 함수는 aspect ratio를 유지하며 downsample 할 수 있는 함�
 
 **C++의 opencv** : python의 opencv가 더 빠르게 나왔다... <br>
 **numba 라이브러리의 JIT** : numba는 numpy와만 호환되어 opencv를 사용한 코드에는 사용할 수 없었다.
+
+<h1>참고하면 좋은 것들</h1>
+https://python-pillow.org/pillow-perf/ 에서 각종 라이브러리들의 Resize외에도 rotate, blur 등에 함수의 benchmark를 보여주고있다.<br>
+resize는 이미지 크기에 따라 함수 실행시간이 달라질 수 있다.
+
+![image](https://user-images.githubusercontent.com/80030558/158916173-fcf8e675-e982-41eb-9d5f-0c5884be34d8.png)
+
+🟪 ImageMagick
+🟦 OpenCV
+🟨 Pillow SIMD SSE
+🟧 Pillow SIMD AVX2
+
+
