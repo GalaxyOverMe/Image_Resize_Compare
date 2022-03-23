@@ -1,6 +1,6 @@
 # Image_Resize_Compare
 
-** PIL thumbnail 함수는 resize된 이미지가 Rotate되는 issue가 있어서 detection 데이터셋엔 사용할 수 없다. **
+**PIL thumbnail 함수는 resize된 이미지가 Rotate되는 issue가 있어서 detection 데이터셋엔 사용할 수 없다.**
 https://velog.io/@kpl5672/python-pillow-resize-thumbnail-%EC%82%AC%EC%9A%A9-%EC%8B%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-rotate%EB%90%98%EB%8A%94-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0
 
 캡스톤에서 사용할 딥러닝 모델에 사용할 데이터셋을 구축하기위해 
