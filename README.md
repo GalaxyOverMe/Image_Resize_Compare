@@ -1,8 +1,5 @@
 # Image_Resize_Compare
 
-**PIL thumbnail 함수는 resize된 이미지가 Rotate되는 issue가 있어서 detection 데이터셋엔 사용할 수 없다.** <br>
-https://velog.io/@kpl5672/python-pillow-resize-thumbnail-%EC%82%AC%EC%9A%A9-%EC%8B%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-rotate%EB%90%98%EB%8A%94-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0
-
 캡스톤에서 사용할 딥러닝 모델에 사용할 데이터셋을 구축하기위해 
 aiHub(https://aihub.or.kr/aidata/30729) 에 있는 이미지를 다운로드하였다.
 
@@ -29,7 +26,7 @@ Resize를 진행하던 중 2가지 문제를 발견했다.
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/80030558/158776801-43bc794f-7868-40a1-be80-80656394b3be.png)
+![image](https://user-images.githubusercontent.com/80030558/159714515-e4f620bd-1c67-445a-9dde-ac9e13d7b356.png)
 
 **<opencv와 PIL의 I/O 및 resize 속도 비교>**
 
